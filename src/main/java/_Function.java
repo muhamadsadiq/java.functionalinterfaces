@@ -7,7 +7,7 @@ public class _Function {
         System.out.println(incrementByOneFunction.apply(2));
     }
 
-
+    //using Functional programing
     static Function<Integer,Integer> incrementByOneFunction = number -> number+1;
     //normal function
     public static int incrementByOne(int number){
