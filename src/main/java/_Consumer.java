@@ -25,8 +25,8 @@ public class _Consumer {
             + customer.customerPhoneNumber);
 
     static class Customer{
-        private final String customerName;
-        private final int customerPhoneNumber;
+        final String customerName;
+        final int customerPhoneNumber;
 
 
         Customer(String customerName, int customerPhoneNumber) {
