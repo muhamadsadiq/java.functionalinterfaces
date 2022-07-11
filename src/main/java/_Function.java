@@ -5,7 +5,7 @@ public class _Function {
     public static void main(String[] args) {
         System.out.println(incrementByOne(2));
 
-        //normall
+        //normal
         int result=incrementByOneFunction.apply(2);
         System.out.println(result);
         System.out.println(multiplyByTenFunction.apply(result));
