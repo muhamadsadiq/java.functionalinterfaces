@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1489bda9-2ce6-4f2d-a839-88e7c7a75e9b" name="Changes" comment="Learned Predicate functional interface">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_Supplier.java" afterDir="false" />
+    <list default="true" id="1489bda9-2ce6-4f2d-a839-88e7c7a75e9b" name="Changes" comment="Learned Intro to Stream">
+      <change afterPath="$PROJECT_DIR$/src/main/java/optionals/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DeclarativeApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DeclarativeApproach.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="4.0-Predicate" />
+        <entry key="$PROJECT_DIR$" value="5.0-Supplier" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,16 +51,22 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application._Supplier">
-    <configuration name="_BiConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_BiConsumer" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optionals.Main" />
       <module name="java.functionalinterfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="optionals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_Consumer" />
+    <configuration name="_BiConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_BiConsumer" />
       <module name="java.functionalinterfaces" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,6 +75,19 @@
     <configuration name="_Predicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_Predicate" />
       <module name="java.functionalinterfaces" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams._Stream" />
+      <module name="java.functionalinterfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,10 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application._Stream" />
         <item itemvalue="Application._Supplier" />
         <item itemvalue="Application._Predicate" />
         <item itemvalue="Application._BiConsumer" />
-        <item itemvalue="Application._Consumer" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +157,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657728551659</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Learned Supplier functional interface">
+      <created>1657729179269</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657729179269</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Learned Intro to Stream">
+      <created>1657731449828</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657731449828</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +189,8 @@
     <MESSAGE value="Learned BiFunction" />
     <MESSAGE value="Learned Consumer functional interface" />
     <MESSAGE value="Learned Predicate functional interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learned Predicate functional interface" />
+    <MESSAGE value="Learned Supplier functional interface" />
+    <MESSAGE value="Learned Intro to Stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learned Intro to Stream" />
   </component>
 </project>
