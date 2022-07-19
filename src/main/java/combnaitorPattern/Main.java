@@ -1,7 +1,7 @@
 package combnaitorPattern;
 
 import java.time.LocalDate;
-
+import static combnaitorPattern.CustomerRegistrationValidator.*;
 public class Main {
     public static void main(String[] args) {
 
@@ -15,5 +15,15 @@ public class Main {
 
         //print out the result if whatever the customer info was valid or not
         System.out.println(new CustomerValidatorService().isCustomerValid(customer));
+
+        //Using combinator pattern
+
+
+        ValidationResult result = isEmailValid()
+                                        .and(isPhoneNumberValid())
+                                        .and(isAnAdult())
+                                        .apply(customer);
+
+        System.out.println(result);
     }
 }
