@@ -1,4 +1,4 @@
-# java.functiona linterfaces
+# java.functional interfaces
 
 I'm created this repository to upload my code for every leasons I learned about functional Programing in java
 
